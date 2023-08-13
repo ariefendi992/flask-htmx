@@ -24,4 +24,5 @@ def get_city():
     country_id = request.args.get("country", type=int)
     cities = City.query.filter_by(country_id=country_id).all()
 
-    return render_template("city_option.html", cities=cities)
+    # return render_template("city_option.html", cities=cities)
+    return [f'<option value={city.id}>{city.name}</option>"' for city in cities]
