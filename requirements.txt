@@ -1,5 +1,5 @@
-Flask==2.3.2
-Flask-SQLAlchemy==3.0.5
-Flask-WTF==1.1.1
-python-dotenv==1.0.0
-WTForms-SQLAlchemy==0.3
+Flask
+Flask-SQLAlchemy
+Flask-WTF
+python-dotenv
+WTForms-SQLAlchemy
